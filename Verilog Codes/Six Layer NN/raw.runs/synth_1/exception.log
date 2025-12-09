@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\Courses\ES204_DigitalSystems\Project\finalproject\raw\raw\raw.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied
