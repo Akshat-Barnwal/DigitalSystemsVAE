@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../raw.srcs/sources_1/new/ReLu.sv" \
+"../../../../raw.srcs/sources_1/new/flatten.sv" \
+"../../../../raw.srcs/sources_1/new/layer.sv" \
+"../../../../raw.srcs/sources_1/new/layer5.sv" \
+"../../../../raw.srcs/sources_1/new/layer6.sv" \
+"../../../../raw.srcs/sources_1/new/matrix.sv" \
+"../../../../raw.srcs/sources_1/new/trans.sv" \
+"../../../../raw.srcs/sources_1/new/transform.sv" \
+"../../../../raw.srcs/sources_1/new/real_NN.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
